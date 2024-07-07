@@ -13,7 +13,6 @@ func mathCalculations(x, y int) (int, int, int, int, int, string, string) {
 	division := x / y
 	module := x % y
 	return addition, subtraction, multiplication, division, module, "Math calculations are done", "Ignored return value"
-
 }
 
 func main() {
